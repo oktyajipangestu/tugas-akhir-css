@@ -1,0 +1,39 @@
+.jumbotron1 {
+    background-image: url("img/building01.jpg");
+    background-size: cover;
+}
+
+.jumbotron2 {
+    background-image: url("img/building02.jpg");
+    background-size: cover;
+}
+
+.jumbotron3 {
+    background-image: url("img/building03.jpg");
+    background-size: cover;
+}
+
+.jumbotron h2, .jumbotron2 h2, .jumbotron3 h2 {
+    margin-top: 250px;
+    letter-spacing: 0.8em;
+}
+
+main {
+    background-color: lightgray;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px 20px;
+}
+
+.card{
+    background-color: lightgray;
+    border: none;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+}
